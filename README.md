@@ -1,6 +1,6 @@
-# Sideral : Elden Ring
+# Sideral-ER
 
-Source repository for SIDERAL, an Elden Ring mod tool that generates a modified
+Source repository for Sideral-ER, an Elden Ring mod tool that generates a modified
 `regulation.bin` to transform selected weapon rewards and loot sources into
 sorceries and incantations.
 
