@@ -1,4 +1,4 @@
-# SIDERAL
+# Sideral : Elden Ring
 
 Source repository for SIDERAL, an Elden Ring mod tool that generates a modified
 `regulation.bin` to transform selected weapon rewards and loot sources into
@@ -35,4 +35,3 @@ installation, downloaded separately, or third-party runtime dependencies.
 ## Nexus Mods page
 
 https://www.nexusmods.com/eldenring/mods/10384
-
