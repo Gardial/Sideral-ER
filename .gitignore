@@ -1,0 +1,42 @@
+# Build outputs
+bin/
+bin_codex/
+obj/
+
+# Local generated files
+Output/
+Logs/
+Input/
+
+# Local tool/runtime caches
+.dotnet/
+.dotnet_home/
+.agents/
+.codex/
+
+# Archives and release packages
+*.zip
+*.7z
+*.rar
+
+# Local/third-party binary dependencies used to build or run locally.
+# See lib/README.md for the expected files.
+lib/*
+!lib/README.md
+
+# Elden Ring game files are required locally but must not be published.
+# See Base/README.md for setup notes.
+Base/*
+!Base/README.md
+
+# Mod Engine 2 is not shipped in the source repository.
+ModEngine/*
+!ModEngine/README.txt
+
+# External unpacking tools are not required in source control.
+Defs/Yabber*/
+Defs/Yabber*.zip
+
+# Local scratch files
+tmp_*
+nuget.exe

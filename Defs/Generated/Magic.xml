@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>MAGIC_PARAM_ST</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="u8 disableParam_NT">
+      <DisplayName>disableParam_NT</DisplayName>
+      <Description>disableParam_NT</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="u8 disableParamReserve1">
+      <DisplayName>disableParamReserve1</DisplayName>
+      <Description>disableParamReserve1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="dummy8 disableParamReserve2[2]">
+      <DisplayName>disableParamReserve2</DisplayName>
+      <Description>disableParamReserve2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="s32 yesNoDialogMessageId">
+      <DisplayName>yesNoDialogMessageId</DisplayName>
+      <Description>yesNoDialogMessageId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="s32 LimitCancelSpEffectId">
+      <DisplayName>LimitCancelSpEffectId</DisplayName>
+      <Description>LimitCancelSpEffectId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="s16 sortId">
+      <DisplayName>sortId</DisplayName>
+      <Description>sortId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="u8 requirementLuck">
+      <DisplayName>requirementLuck</DisplayName>
+      <Description>requirementLuck</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="u8 aiNotifyType">
+      <DisplayName>aiNotifyType</DisplayName>
+      <Description>aiNotifyType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="s16 mp">
+      <DisplayName>mp</DisplayName>
+      <Description>mp</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="s16 stamina">
+      <DisplayName>stamina</DisplayName>
+      <Description>stamina</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="s16 iconId">
+      <DisplayName>iconId</DisplayName>
+      <Description>iconId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="s16 behaviorId">
+      <DisplayName>behaviorId</DisplayName>
+      <Description>behaviorId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="s16 mtrlItemId">
+      <DisplayName>mtrlItemId</DisplayName>
+      <Description>mtrlItemId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="s16 replaceMagicId">
+      <DisplayName>replaceMagicId</DisplayName>
+      <Description>replaceMagicId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="s16 maxQuantity">
+      <DisplayName>maxQuantity</DisplayName>
+      <Description>maxQuantity</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="u8 refCategory1">
+      <DisplayName>refCategory1</DisplayName>
+      <Description>refCategory1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>16</SortID>
+    </Field>
+    <Field Def="u8 overDexterity">
+      <DisplayName>overDexterity</DisplayName>
+      <Description>overDexterity</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>17</SortID>
+    </Field>
+    <Field Def="u8 refCategory2">
+      <DisplayName>refCategory2</DisplayName>
+      <Description>refCategory2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>18</SortID>
+    </Field>
+    <Field Def="u8 slotLength">
+      <DisplayName>slotLength</DisplayName>
+      <Description>slotLength</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="u8 requirementIntellect">
+      <DisplayName>requirementIntellect</DisplayName>
+      <Description>requirementIntellect</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="u8 requirementFaith">
+      <DisplayName>requirementFaith</DisplayName>
+      <Description>requirementFaith</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>21</SortID>
+    </Field>
+    <Field Def="u8 analogDexterityMin">
+      <DisplayName>analogDexterityMin</DisplayName>
+      <Description>analogDexterityMin</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>22</SortID>
+    </Field>
+    <Field Def="u8 analogDexterityMax">
+      <DisplayName>analogDexterityMax</DisplayName>
+      <Description>analogDexterityMax</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>23</SortID>
+    </Field>
+    <Field Def="u8 ezStateBehaviorType">
+      <DisplayName>ezStateBehaviorType</DisplayName>
+      <Description>ezStateBehaviorType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>24</SortID>
+    </Field>
+    <Field Def="u8 refCategory3">
+      <DisplayName>refCategory3</DisplayName>
+      <Description>refCategory3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>25</SortID>
+    </Field>
+    <Field Def="u8 spEffectCategory">
+      <DisplayName>spEffectCategory</DisplayName>
+      <Description>spEffectCategory</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>26</SortID>
+    </Field>
+    <Field Def="u8 refType">
+      <DisplayName>refType</DisplayName>
+      <Description>refType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>27</SortID>
+    </Field>
+    <Field Def="u8 opmeMenuType">
+      <DisplayName>opmeMenuType</DisplayName>
+      <Description>opmeMenuType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>28</SortID>
+    </Field>
+    <Field Def="u8 refCategory4">
+      <DisplayName>refCategory4</DisplayName>
+      <Description>refCategory4</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>29</SortID>
+    </Field>
+    <Field Def="s16 hasSpEffectType">
+      <DisplayName>hasSpEffectType</DisplayName>
+      <Description>hasSpEffectType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>30</SortID>
+    </Field>
+    <Field Def="u8 VowType0:1">
+      <DisplayName>VowType0</DisplayName>
+      <Description>VowType0</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>31</SortID>
+    </Field>
+    <Field Def="u8 VowType1:1">
+      <DisplayName>VowType1</DisplayName>
+      <Description>VowType1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>32</SortID>
+    </Field>
+    <Field Def="u8 VowType2:1">
+      <DisplayName>VowType2</DisplayName>
+      <Description>VowType2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>33</SortID>
+    </Field>
+    <Field Def="u8 VowType3:1">
+      <DisplayName>VowType3</DisplayName>
+      <Description>VowType3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>34</SortID>
+    </Field>
+    <Field Def="u8 VowType4:1">
+      <DisplayName>VowType4</DisplayName>
+      <Description>VowType4</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>35</SortID>
+    </Field>
+    <Field Def="u8 VowType5:1">
+      <DisplayName>VowType5</DisplayName>
+      <Description>VowType5</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>36</SortID>
+    </Field>
+    <Field Def="u8 VowType6:1">
+      <DisplayName>VowType6</DisplayName>
+      <Description>VowType6</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>37</SortID>
+    </Field>
+    <Field Def="u8 VowType7:1">
+      <DisplayName>VowType7</DisplayName>
+      <Description>VowType7</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>38</SortID>
+    </Field>
+    <Field Def="u8 enableMulti:1">
+      <DisplayName>enableMulti</DisplayName>
+      <Description>enableMulti</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>39</SortID>
+    </Field>
+    <Field Def="u8 enableMultOnly:1">
+      <DisplayName>enableMultOnly</DisplayName>
+      <Description>enableMultOnly</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>40</SortID>
+    </Field>
+    <Field Def="u8 isEnchant:1">
+      <DisplayName>isEnchant</DisplayName>
+      <Description>isEnchant</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>41</SortID>
+    </Field>
+    <Field Def="u8 isShieldEnchant:1">
+      <DisplayName>isShieldEnchant</DisplayName>
+      <Description>isShieldEnchant</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>42</SortID>
+    </Field>
+    <Field Def="u8 enable_live:1">
+      <DisplayName>enable_live</DisplayName>
+      <Description>enable_live</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>43</SortID>
+    </Field>
+    <Field Def="u8 enable_gray:1">
+      <DisplayName>enable_gray</DisplayName>
+      <Description>enable_gray</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>44</SortID>
+    </Field>
+    <Field Def="u8 enable_white:1">
+      <DisplayName>enable_white</DisplayName>
+      <Description>enable_white</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>45</SortID>
+    </Field>
+    <Field Def="u8 enable_black:1">
+      <DisplayName>enable_black</DisplayName>
+      <Description>enable_black</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>46</SortID>
+    </Field>
+    <Field Def="u8 disable_offline:1">
+      <DisplayName>disable_offline</DisplayName>
+      <Description>disable_offline</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>47</SortID>
+    </Field>
+    <Field Def="u8 castResonanceMagic:1">
+      <DisplayName>castResonanceMagic</DisplayName>
+      <Description>castResonanceMagic</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>48</SortID>
+    </Field>
+    <Field Def="u8 Unk1:1">
+      <DisplayName>Unk1</DisplayName>
+      <Description>Unk1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>49</SortID>
+    </Field>
+    <Field Def="u8 Unk2:1">
+      <DisplayName>Unk2</DisplayName>
+      <Description>Unk2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>50</SortID>
+    </Field>
+    <Field Def="u8 Unk3:1">
+      <DisplayName>Unk3</DisplayName>
+      <Description>Unk3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>51</SortID>
+    </Field>
+    <Field Def="u8 Unk4:1">
+      <DisplayName>Unk4</DisplayName>
+      <Description>Unk4</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>52</SortID>
+    </Field>
+    <Field Def="u8 Unk5:1">
+      <DisplayName>Unk5</DisplayName>
+      <Description>Unk5</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>53</SortID>
+    </Field>
+    <Field Def="u8 Unk6:1">
+      <DisplayName>Unk6</DisplayName>
+      <Description>Unk6</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>54</SortID>
+    </Field>
+    <Field Def="u8 VowType8:1">
+      <DisplayName>VowType8</DisplayName>
+      <Description>VowType8</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>55</SortID>
+    </Field>
+    <Field Def="u8 VowType9:1">
+      <DisplayName>VowType9</DisplayName>
+      <Description>VowType9</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>56</SortID>
+    </Field>
+    <Field Def="u8 VowType10:1">
+      <DisplayName>VowType10</DisplayName>
+      <Description>VowType10</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>57</SortID>
+    </Field>
+    <Field Def="u8 VowType11:1">
+      <DisplayName>VowType11</DisplayName>
+      <Description>VowType11</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>58</SortID>
+    </Field>
+    <Field Def="u8 VowType12:1">
+      <DisplayName>VowType12</DisplayName>
+      <Description>VowType12</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>59</SortID>
+    </Field>
+    <Field Def="u8 VowType13:1">
+      <DisplayName>VowType13</DisplayName>
+      <Description>VowType13</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>60</SortID>
+    </Field>
+    <Field Def="u8 VowType14:1">
+      <DisplayName>VowType14</DisplayName>
+      <Description>VowType14</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>61</SortID>
+    </Field>
+    <Field Def="u8 VowType15:1">
+      <DisplayName>VowType15</DisplayName>
+      <Description>VowType15</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>62</SortID>
+    </Field>
+    <Field Def="u8 Unk7">
+      <DisplayName>Unk7</DisplayName>
+      <Description>Unk7</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>63</SortID>
+    </Field>
+    <Field Def="u8 Unk8">
+      <DisplayName>Unk8</DisplayName>
+      <Description>Unk8</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>64</SortID>
+    </Field>
+    <Field Def="s32 CastSfx1">
+      <DisplayName>CastSfx1</DisplayName>
+      <Description>CastSfx1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>65</SortID>
+    </Field>
+    <Field Def="s32 CastSfx2">
+      <DisplayName>CastSfx2</DisplayName>
+      <Description>CastSfx2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>66</SortID>
+    </Field>
+    <Field Def="s32 CastSfx3">
+      <DisplayName>CastSfx3</DisplayName>
+      <Description>CastSfx3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>67</SortID>
+    </Field>
+    <Field Def="s32 Unk9">
+      <DisplayName>Unk9</DisplayName>
+      <Description>Unk9</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>68</SortID>
+    </Field>
+    <Field Def="u8 AttributeType">
+      <DisplayName>AttributeType</DisplayName>
+      <Description>AttributeType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>69</SortID>
+    </Field>
+    <Field Def="s8 AttributeVal0">
+      <DisplayName>AttributeVal0</DisplayName>
+      <Description>AttributeVal0</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>70</SortID>
+    </Field>
+    <Field Def="s8 AttributeVal1">
+      <DisplayName>AttributeVal1</DisplayName>
+      <Description>AttributeVal1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>71</SortID>
+    </Field>
+    <Field Def="s8 AttributeVal2">
+      <DisplayName>AttributeVal2</DisplayName>
+      <Description>AttributeVal2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>72</SortID>
+    </Field>
+    <Field Def="s8 AttributeVal3">
+      <DisplayName>AttributeVal3</DisplayName>
+      <Description>AttributeVal3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>73</SortID>
+    </Field>
+    <Field Def="u8 refCategory5">
+      <DisplayName>refCategory5</DisplayName>
+      <Description>refCategory5</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>74</SortID>
+    </Field>
+    <Field Def="s16 refIdSpCost4">
+      <DisplayName>refIdSpCost4</DisplayName>
+      <Description>refIdSpCost4</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>75</SortID>
+    </Field>
+    <Field Def="s32 magicId0">
+      <DisplayName>magicId0</DisplayName>
+      <Description>magicId0</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>76</SortID>
+    </Field>
+    <Field Def="s32 magicId1">
+      <DisplayName>magicId1</DisplayName>
+      <Description>magicId1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>77</SortID>
+    </Field>
+    <Field Def="s32 magicId2">
+      <DisplayName>magicId2</DisplayName>
+      <Description>magicId2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>78</SortID>
+    </Field>
+    <Field Def="s32 magicId3">
+      <DisplayName>magicId3</DisplayName>
+      <Description>magicId3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>79</SortID>
+    </Field>
+    <Field Def="s16 refIdFpCost2">
+      <DisplayName>refIdFpCost2</DisplayName>
+      <Description>refIdFpCost2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>80</SortID>
+    </Field>
+    <Field Def="s16 refIdSpCost2">
+      <DisplayName>refIdSpCost2</DisplayName>
+      <Description>refIdSpCost2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>81</SortID>
+    </Field>
+    <Field Def="u8 Unk10">
+      <DisplayName>Unk10</DisplayName>
+      <Description>Unk10</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>82</SortID>
+    </Field>
+    <Field Def="u8 refCategory6">
+      <DisplayName>refCategory6</DisplayName>
+      <Description>refCategory6</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>83</SortID>
+    </Field>
+    <Field Def="s16 refIdFpCost4">
+      <DisplayName>refIdFpCost4</DisplayName>
+      <Description>refIdFpCost4</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>84</SortID>
+    </Field>
+    <Field Def="s16 refIdFpCost3">
+      <DisplayName>refIdFpCost3</DisplayName>
+      <Description>refIdFpCost3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>85</SortID>
+    </Field>
+    <Field Def="s16 refIdSpCost3">
+      <DisplayName>refIdSpCost3</DisplayName>
+      <Description>refIdSpCost3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>86</SortID>
+    </Field>
+    <Field Def="s32 refId1">
+      <DisplayName>refId1</DisplayName>
+      <Description>refId1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>87</SortID>
+    </Field>
+    <Field Def="s32 refId2">
+      <DisplayName>refId2</DisplayName>
+      <Description>refId2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>88</SortID>
+    </Field>
+    <Field Def="s32 refId3">
+      <DisplayName>refId3</DisplayName>
+      <Description>refId3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>89</SortID>
+    </Field>
+    <Field Def="s32 refId4">
+      <DisplayName>refId4</DisplayName>
+      <Description>refId4</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>90</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[12]">
+      <DisplayName>pad1</DisplayName>
+      <Description>pad1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>91</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

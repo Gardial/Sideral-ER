@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="2">
+  <ParamType>CHARACTER_INIT_PARAM</ParamType>
+  <DataVersion>1</DataVersion>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <FormatVersion>203</FormatVersion>
+  <Fields>
+    <Field Def="f32 BaseRec_mp">
+      <DisplayName>BaseRec_mp</DisplayName>
+      <Description>BaseRec_mp</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>1</SortID>
+    </Field>
+    <Field Def="f32 BaseRec_sp">
+      <DisplayName>BaseRec_sp</DisplayName>
+      <Description>BaseRec_sp</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>2</SortID>
+    </Field>
+    <Field Def="f32 red_Falldam">
+      <DisplayName>red_Falldam</DisplayName>
+      <Description>red_Falldam</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>3</SortID>
+    </Field>
+    <Field Def="s32 soul">
+      <DisplayName>soul</DisplayName>
+      <Description>soul</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>4</SortID>
+    </Field>
+    <Field Def="s32 equip_Wep_Right">
+      <DisplayName>equip_Wep_Right</DisplayName>
+      <Description>equip_Wep_Right</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>5</SortID>
+    </Field>
+    <Field Def="s32 equip_Subwep_Right">
+      <DisplayName>equip_Subwep_Right</DisplayName>
+      <Description>equip_Subwep_Right</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>6</SortID>
+    </Field>
+    <Field Def="s32 equip_Wep_Left">
+      <DisplayName>equip_Wep_Left</DisplayName>
+      <Description>equip_Wep_Left</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>7</SortID>
+    </Field>
+    <Field Def="s32 equip_Subwep_Left">
+      <DisplayName>equip_Subwep_Left</DisplayName>
+      <Description>equip_Subwep_Left</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>8</SortID>
+    </Field>
+    <Field Def="s32 equip_Helm">
+      <DisplayName>equip_Helm</DisplayName>
+      <Description>equip_Helm</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>9</SortID>
+    </Field>
+    <Field Def="s32 equip_Armor">
+      <DisplayName>equip_Armor</DisplayName>
+      <Description>equip_Armor</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>10</SortID>
+    </Field>
+    <Field Def="s32 equip_Gaunt">
+      <DisplayName>equip_Gaunt</DisplayName>
+      <Description>equip_Gaunt</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>11</SortID>
+    </Field>
+    <Field Def="s32 equip_Leg">
+      <DisplayName>equip_Leg</DisplayName>
+      <Description>equip_Leg</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>12</SortID>
+    </Field>
+    <Field Def="s32 equip_Arrow">
+      <DisplayName>equip_Arrow</DisplayName>
+      <Description>equip_Arrow</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>13</SortID>
+    </Field>
+    <Field Def="s32 equip_Bolt">
+      <DisplayName>equip_Bolt</DisplayName>
+      <Description>equip_Bolt</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>14</SortID>
+    </Field>
+    <Field Def="s32 equip_SubArrow">
+      <DisplayName>equip_SubArrow</DisplayName>
+      <Description>equip_SubArrow</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>15</SortID>
+    </Field>
+    <Field Def="s32 equip_SubBolt">
+      <DisplayName>equip_SubBolt</DisplayName>
+      <Description>equip_SubBolt</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>16</SortID>
+    </Field>
+    <Field Def="s32 equip_Accessory1">
+      <DisplayName>equip_Accessory1</DisplayName>
+      <Description>equip_Accessory1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>17</SortID>
+    </Field>
+    <Field Def="s32 equip_Accessory2">
+      <DisplayName>equip_Accessory2</DisplayName>
+      <Description>equip_Accessory2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>18</SortID>
+    </Field>
+    <Field Def="s32 equip_Accessory3">
+      <DisplayName>equip_Accessory3</DisplayName>
+      <Description>equip_Accessory3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>19</SortID>
+    </Field>
+    <Field Def="s32 equip_Accessory4">
+      <DisplayName>equip_Accessory4</DisplayName>
+      <Description>equip_Accessory4</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>20</SortID>
+    </Field>
+    <Field Def="s32 equip_Accessory5">
+      <DisplayName>equip_Accessory5</DisplayName>
+      <Description>equip_Accessory5</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>21</SortID>
+    </Field>
+    <Field Def="s32 Equip_Skill_01">
+      <DisplayName>Equip_Skill_01</DisplayName>
+      <Description>Equip_Skill_01</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>22</SortID>
+    </Field>
+    <Field Def="s32 Equip_Skill_02">
+      <DisplayName>Equip_Skill_02</DisplayName>
+      <Description>Equip_Skill_02</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>23</SortID>
+    </Field>
+    <Field Def="s32 Equip_Skill_03">
+      <DisplayName>Equip_Skill_03</DisplayName>
+      <Description>Equip_Skill_03</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>24</SortID>
+    </Field>
+    <Field Def="s32 equip_Spell_01">
+      <DisplayName>equip_Spell_01</DisplayName>
+      <Description>equip_Spell_01</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>25</SortID>
+    </Field>
+    <Field Def="s32 equip_Spell_02">
+      <DisplayName>equip_Spell_02</DisplayName>
+      <Description>equip_Spell_02</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>26</SortID>
+    </Field>
+    <Field Def="s32 equip_Spell_03">
+      <DisplayName>equip_Spell_03</DisplayName>
+      <Description>equip_Spell_03</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>27</SortID>
+    </Field>
+    <Field Def="s32 equip_Spell_04">
+      <DisplayName>equip_Spell_04</DisplayName>
+      <Description>equip_Spell_04</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>28</SortID>
+    </Field>
+    <Field Def="s32 equip_Spell_05">
+      <DisplayName>equip_Spell_05</DisplayName>
+      <Description>equip_Spell_05</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>29</SortID>
+    </Field>
+    <Field Def="s32 equip_Spell_06">
+      <DisplayName>equip_Spell_06</DisplayName>
+      <Description>equip_Spell_06</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>30</SortID>
+    </Field>
+    <Field Def="s32 equip_Spell_07">
+      <DisplayName>equip_Spell_07</DisplayName>
+      <Description>equip_Spell_07</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>31</SortID>
+    </Field>
+    <Field Def="s32 Item_01">
+      <DisplayName>Item_01</DisplayName>
+      <Description>Item_01</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>32</SortID>
+    </Field>
+    <Field Def="s32 Item_02">
+      <DisplayName>Item_02</DisplayName>
+      <Description>Item_02</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>33</SortID>
+    </Field>
+    <Field Def="s32 Item_03">
+      <DisplayName>Item_03</DisplayName>
+      <Description>Item_03</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>34</SortID>
+    </Field>
+    <Field Def="s32 Item_04">
+      <DisplayName>Item_04</DisplayName>
+      <Description>Item_04</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>35</SortID>
+    </Field>
+    <Field Def="s32 Item_05">
+      <DisplayName>Item_05</DisplayName>
+      <Description>Item_05</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>36</SortID>
+    </Field>
+    <Field Def="s32 Item_06">
+      <DisplayName>Item_06</DisplayName>
+      <Description>Item_06</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>37</SortID>
+    </Field>
+    <Field Def="s32 Item_07">
+      <DisplayName>Item_07</DisplayName>
+      <Description>Item_07</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>38</SortID>
+    </Field>
+    <Field Def="s32 Item_08">
+      <DisplayName>Item_08</DisplayName>
+      <Description>Item_08</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>39</SortID>
+    </Field>
+    <Field Def="s32 Item_09">
+      <DisplayName>Item_09</DisplayName>
+      <Description>Item_09</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>40</SortID>
+    </Field>
+    <Field Def="s32 Item_10">
+      <DisplayName>Item_10</DisplayName>
+      <Description>Item_10</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>41</SortID>
+    </Field>
+    <Field Def="s32 npcPlayerFaceGenId">
+      <DisplayName>npcPlayerFaceGenId</DisplayName>
+      <Description>npcPlayerFaceGenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>42</SortID>
+    </Field>
+    <Field Def="s32 npcPlayerThinkId">
+      <DisplayName>npcPlayerThinkId</DisplayName>
+      <Description>npcPlayerThinkId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>43</SortID>
+    </Field>
+    <Field Def="s16 baseHp">
+      <DisplayName>baseHp</DisplayName>
+      <Description>baseHp</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>44</SortID>
+    </Field>
+    <Field Def="s16 baseMp">
+      <DisplayName>baseMp</DisplayName>
+      <Description>baseMp</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>45</SortID>
+    </Field>
+    <Field Def="s16 baseSp">
+      <DisplayName>baseSp</DisplayName>
+      <Description>baseSp</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>46</SortID>
+    </Field>
+    <Field Def="s16 arrowNum">
+      <DisplayName>arrowNum</DisplayName>
+      <Description>arrowNum</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>47</SortID>
+    </Field>
+    <Field Def="s16 boltNum">
+      <DisplayName>boltNum</DisplayName>
+      <Description>boltNum</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>48</SortID>
+    </Field>
+    <Field Def="s16 subArrowNum">
+      <DisplayName>subArrowNum</DisplayName>
+      <Description>subArrowNum</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>49</SortID>
+    </Field>
+    <Field Def="s16 subBoltNum">
+      <DisplayName>subBoltNum</DisplayName>
+      <Description>subBoltNum</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>50</SortID>
+    </Field>
+    <Field Def="s16 QWC_sb">
+      <DisplayName>QWC_sb</DisplayName>
+      <Description>QWC_sb</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>51</SortID>
+    </Field>
+    <Field Def="s16 QWC_mw">
+      <DisplayName>QWC_mw</DisplayName>
+      <Description>QWC_mw</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>52</SortID>
+    </Field>
+    <Field Def="s16 QWC_cd">
+      <DisplayName>QWC_cd</DisplayName>
+      <Description>QWC_cd</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>53</SortID>
+    </Field>
+    <Field Def="s16 soulLvl">
+      <DisplayName>soulLvl</DisplayName>
+      <Description>soulLvl</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>54</SortID>
+    </Field>
+    <Field Def="s8 baseVit">
+      <DisplayName>baseVit</DisplayName>
+      <Description>baseVit</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>55</SortID>
+    </Field>
+    <Field Def="s8 baseWil">
+      <DisplayName>baseWil</DisplayName>
+      <Description>baseWil</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>56</SortID>
+    </Field>
+    <Field Def="s8 baseEnd">
+      <DisplayName>baseEnd</DisplayName>
+      <Description>baseEnd</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>57</SortID>
+    </Field>
+    <Field Def="s8 baseStr">
+      <DisplayName>baseStr</DisplayName>
+      <Description>baseStr</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>58</SortID>
+    </Field>
+    <Field Def="s8 baseDex">
+      <DisplayName>baseDex</DisplayName>
+      <Description>baseDex</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>59</SortID>
+    </Field>
+    <Field Def="s8 baseMag">
+      <DisplayName>baseMag</DisplayName>
+      <Description>baseMag</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>60</SortID>
+    </Field>
+    <Field Def="s8 baseFai">
+      <DisplayName>baseFai</DisplayName>
+      <Description>baseFai</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>61</SortID>
+    </Field>
+    <Field Def="s8 baseLuc">
+      <DisplayName>baseLuc</DisplayName>
+      <Description>baseLuc</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>62</SortID>
+    </Field>
+    <Field Def="s8 baseHeroPoint">
+      <DisplayName>baseHeroPoint</DisplayName>
+      <Description>baseHeroPoint</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>63</SortID>
+    </Field>
+    <Field Def="s8 baseDurability">
+      <DisplayName>baseDurability</DisplayName>
+      <Description>baseDurability</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>64</SortID>
+    </Field>
+    <Field Def="u8 itemNum_01">
+      <DisplayName>itemNum_01</DisplayName>
+      <Description>itemNum_01</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>65</SortID>
+    </Field>
+    <Field Def="u8 itemNum_02">
+      <DisplayName>itemNum_02</DisplayName>
+      <Description>itemNum_02</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>66</SortID>
+    </Field>
+    <Field Def="u8 itemNum_03">
+      <DisplayName>itemNum_03</DisplayName>
+      <Description>itemNum_03</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>67</SortID>
+    </Field>
+    <Field Def="u8 itemNum_04">
+      <DisplayName>itemNum_04</DisplayName>
+      <Description>itemNum_04</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>68</SortID>
+    </Field>
+    <Field Def="u8 itemNum_05">
+      <DisplayName>itemNum_05</DisplayName>
+      <Description>itemNum_05</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>69</SortID>
+    </Field>
+    <Field Def="u8 itemNum_06">
+      <DisplayName>itemNum_06</DisplayName>
+      <Description>itemNum_06</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>70</SortID>
+    </Field>
+    <Field Def="u8 itemNum_07">
+      <DisplayName>itemNum_07</DisplayName>
+      <Description>itemNum_07</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>71</SortID>
+    </Field>
+    <Field Def="u8 itemNum_08">
+      <DisplayName>itemNum_08</DisplayName>
+      <Description>itemNum_08</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>72</SortID>
+    </Field>
+    <Field Def="u8 itemNum_09">
+      <DisplayName>itemNum_09</DisplayName>
+      <Description>itemNum_09</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>73</SortID>
+    </Field>
+    <Field Def="u8 itemNum_10">
+      <DisplayName>itemNum_10</DisplayName>
+      <Description>itemNum_10</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>74</SortID>
+    </Field>
+    <Field Def="u8 bodyScaleHead">
+      <DisplayName>bodyScaleHead</DisplayName>
+      <Description>bodyScaleHead</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>75</SortID>
+    </Field>
+    <Field Def="u8 bodyScaleBreast">
+      <DisplayName>bodyScaleBreast</DisplayName>
+      <Description>bodyScaleBreast</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>76</SortID>
+    </Field>
+    <Field Def="u8 BodyScaleAbdomen">
+      <DisplayName>BodyScaleAbdomen</DisplayName>
+      <Description>BodyScaleAbdomen</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>77</SortID>
+    </Field>
+    <Field Def="u8 BodyScaleArm">
+      <DisplayName>BodyScaleArm</DisplayName>
+      <Description>BodyScaleArm</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>78</SortID>
+    </Field>
+    <Field Def="u8 BodyScaleLeg">
+      <DisplayName>BodyScaleLeg</DisplayName>
+      <Description>BodyScaleLeg</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>79</SortID>
+    </Field>
+    <Field Def="u8 gestureid0">
+      <DisplayName>gestureid0</DisplayName>
+      <Description>gestureid0</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>80</SortID>
+    </Field>
+    <Field Def="u8 gestureid1">
+      <DisplayName>gestureid1</DisplayName>
+      <Description>gestureid1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>81</SortID>
+    </Field>
+    <Field Def="u8 gestureid2">
+      <DisplayName>gestureid2</DisplayName>
+      <Description>gestureid2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>82</SortID>
+    </Field>
+    <Field Def="u8 gestureid3">
+      <DisplayName>gestureid3</DisplayName>
+      <Description>gestureid3</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>83</SortID>
+    </Field>
+    <Field Def="u8 gestureid4">
+      <DisplayName>gestureid4</DisplayName>
+      <Description>gestureid4</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>84</SortID>
+    </Field>
+    <Field Def="u8 gestureid5">
+      <DisplayName>gestureid5</DisplayName>
+      <Description>gestureid5</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>85</SortID>
+    </Field>
+    <Field Def="u8 gestureid6">
+      <DisplayName>gestureid6</DisplayName>
+      <Description>gestureid6</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>86</SortID>
+    </Field>
+    <Field Def="u8 npcPlayerType">
+      <DisplayName>npcPlayerType</DisplayName>
+      <Description>npcPlayerType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>87</SortID>
+    </Field>
+    <Field Def="u8 npcPlayerDrawType">
+      <DisplayName>npcPlayerDrawType</DisplayName>
+      <Description>npcPlayerDrawType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>88</SortID>
+    </Field>
+    <Field Def="u8 NpcPlayerSex">
+      <DisplayName>NpcPlayerSex</DisplayName>
+      <Description>NpcPlayerSex</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>89</SortID>
+    </Field>
+    <Field Def="u8 vowType">
+      <DisplayName>vowType</DisplayName>
+      <Description>vowType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>90</SortID>
+    </Field>
+    <Field Def="u8 VoiceType">
+      <DisplayName>VoiceType</DisplayName>
+      <Description>VoiceType</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>91</SortID>
+    </Field>
+    <Field Def="dummy8 pad1[1]">
+      <DisplayName>pad1</DisplayName>
+      <Description>pad1</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>92</SortID>
+    </Field>
+    <Field Def="s32 equip_Wep_Right_GenId">
+      <DisplayName>equip_Wep_Right_GenId</DisplayName>
+      <Description>equip_Wep_Right_GenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>93</SortID>
+    </Field>
+    <Field Def="s32 equip_Subwep_Right_GenId">
+      <DisplayName>equip_Subwep_Right_GenId</DisplayName>
+      <Description>equip_Subwep_Right_GenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>94</SortID>
+    </Field>
+    <Field Def="s32 equip_Wep_Left_GenId">
+      <DisplayName>equip_Wep_Left_GenId</DisplayName>
+      <Description>equip_Wep_Left_GenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>95</SortID>
+    </Field>
+    <Field Def="s32 equip_Subwep_Left_GenId">
+      <DisplayName>equip_Subwep_Left_GenId</DisplayName>
+      <Description>equip_Subwep_Left_GenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>96</SortID>
+    </Field>
+    <Field Def="s32 equip_Helm_GenId">
+      <DisplayName>equip_Helm_GenId</DisplayName>
+      <Description>equip_Helm_GenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>97</SortID>
+    </Field>
+    <Field Def="s32 equip_Armor_GenId">
+      <DisplayName>equip_Armor_GenId</DisplayName>
+      <Description>equip_Armor_GenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>98</SortID>
+    </Field>
+    <Field Def="s32 equip_Gaunt_GenId">
+      <DisplayName>equip_Gaunt_GenId</DisplayName>
+      <Description>equip_Gaunt_GenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>99</SortID>
+    </Field>
+    <Field Def="s32 equip_Leg_GenId">
+      <DisplayName>equip_Leg_GenId</DisplayName>
+      <Description>equip_Leg_GenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>100</SortID>
+    </Field>
+    <Field Def="s32 equip_Wep_Body_GenId">
+      <DisplayName>equip_Wep_Body_GenId</DisplayName>
+      <Description>equip_Wep_Body_GenId</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>101</SortID>
+    </Field>
+    <Field Def="s32 SecondaryItem_01">
+      <DisplayName>SecondaryItem_01</DisplayName>
+      <Description>SecondaryItem_01</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>102</SortID>
+    </Field>
+    <Field Def="s32 SecondaryItem_02">
+      <DisplayName>SecondaryItem_02</DisplayName>
+      <Description>SecondaryItem_02</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>103</SortID>
+    </Field>
+    <Field Def="s32 SecondaryItem_03">
+      <DisplayName>SecondaryItem_03</DisplayName>
+      <Description>SecondaryItem_03</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>104</SortID>
+    </Field>
+    <Field Def="s32 SecondaryItem_04">
+      <DisplayName>SecondaryItem_04</DisplayName>
+      <Description>SecondaryItem_04</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>105</SortID>
+    </Field>
+    <Field Def="s32 SecondaryItem_05">
+      <DisplayName>SecondaryItem_05</DisplayName>
+      <Description>SecondaryItem_05</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>106</SortID>
+    </Field>
+    <Field Def="s32 SecondaryItem_06">
+      <DisplayName>SecondaryItem_06</DisplayName>
+      <Description>SecondaryItem_06</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>107</SortID>
+    </Field>
+    <Field Def="s32 SecondaryItem_07">
+      <DisplayName>SecondaryItem_07</DisplayName>
+      <Description>SecondaryItem_07</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>108</SortID>
+    </Field>
+    <Field Def="s32 SecondaryItem_08">
+      <DisplayName>SecondaryItem_08</DisplayName>
+      <Description>SecondaryItem_08</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>109</SortID>
+    </Field>
+    <Field Def="u8 secondaryItemNum_01">
+      <DisplayName>secondaryItemNum_01</DisplayName>
+      <Description>secondaryItemNum_01</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>110</SortID>
+    </Field>
+    <Field Def="u8 secondaryItemNum_02">
+      <DisplayName>secondaryItemNum_02</DisplayName>
+      <Description>secondaryItemNum_02</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>111</SortID>
+    </Field>
+    <Field Def="u8 secondaryItemNum_03">
+      <DisplayName>secondaryItemNum_03</DisplayName>
+      <Description>secondaryItemNum_03</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>112</SortID>
+    </Field>
+    <Field Def="u8 secondaryItemNum_04">
+      <DisplayName>secondaryItemNum_04</DisplayName>
+      <Description>secondaryItemNum_04</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>113</SortID>
+    </Field>
+    <Field Def="u8 secondaryItemNum_05">
+      <DisplayName>secondaryItemNum_05</DisplayName>
+      <Description>secondaryItemNum_05</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>114</SortID>
+    </Field>
+    <Field Def="u8 secondaryItemNum_06">
+      <DisplayName>secondaryItemNum_06</DisplayName>
+      <Description>secondaryItemNum_06</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>115</SortID>
+    </Field>
+    <Field Def="u8 secondaryItemNum_07">
+      <DisplayName>secondaryItemNum_07</DisplayName>
+      <Description>secondaryItemNum_07</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>116</SortID>
+    </Field>
+    <Field Def="u8 secondaryItemNum_08">
+      <DisplayName>secondaryItemNum_08</DisplayName>
+      <Description>secondaryItemNum_08</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>117</SortID>
+    </Field>
+    <Field Def="dummy8 pad2[12]">
+      <DisplayName>pad2</DisplayName>
+      <Description>pad2</Description>
+      <EditFlags>None</EditFlags>
+      <SortID>118</SortID>
+    </Field>
+  </Fields>
+</PARAMDEF>

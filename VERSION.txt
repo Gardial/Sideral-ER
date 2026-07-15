@@ -1,0 +1,22 @@
+SIDERAL
+=======
+
+Version actuelle : V1.0.3
+Version figee le : 2026-07-14
+Archive de reference : SIDERAL V1.0.3.zip
+
+Regle de versioning
+-------------------
+
+- Amelioration majeure : +1 version majeure.
+  Exemples : V2.0.0, V3.0.0.
+
+- Amelioration mineure : +0.1 version mineure.
+  Exemples : V1.1.0, V1.2.0, V2.1.0.
+
+- Correctif de bug : +0.0.1 version corrective.
+  Exemples : V1.0.1, V1.0.2, V2.0.1, V2.1.1.
+
+Note : les versions mineures peuvent etre affichees sous forme courte sur NexusMods
+si besoin, par exemple V1.1 au lieu de V1.1.0, mais le projet garde le format
+complet majeur.mineur.correctif.

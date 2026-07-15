@@ -1,0 +1,39 @@
+SIDERAL - Changelog
+===================
+
+[V1.0.3] - 2026-07-14
+---------------------
+
+- Correctif de packaging NexusMods.
+- Retrait de Mod Engine 2 du package publie.
+- Le profil Autonome reste disponible : l'utilisateur doit telecharger Mod Engine 2 separement et selectionner modengine2_launcher.exe si SIDERAL le demande.
+
+[V1.0.2] - 2026-07-13
+---------------------
+
+- Correctif de packaging NexusMods.
+- Retrait du dossier lib redondant du package publie.
+- Retrait des executables Yabber du package publie.
+- Conservation uniquement des dependances necessaires au lancement de SIDERAL.
+
+[V1.0.1] - 2026-07-13
+---------------------
+
+- Correctif de packaging NexusMods.
+- Retrait de l'archive imbriquee Defs/Yabber.1.3.1.zip du dossier publie.
+- Le dossier Yabber deja extrait reste inclus pour les fichiers necessaires.
+
+[V1.0.0] - 2026-07-13
+---------------------
+
+- Version de reference figee pour la publication NexusMods.
+- Application renommee SIDERAL.
+- Interface disponible en Francais, English et Chinese.
+- Profil Compatible Randomizer.
+- Profil Autonome avec lancement via Mod Engine 2.
+- Generation du regulation.bin selon les options de conversion.
+- Conversion possible des boucliers en batons et sceaux.
+- Parade activee sur les batons et les sceaux.
+- Option Autonome pour retirer les prerequis de stats des batons, sceaux,
+  sorcelleries et incantations.
+- README inclus avec les instructions d'utilisation et les informations de contact.

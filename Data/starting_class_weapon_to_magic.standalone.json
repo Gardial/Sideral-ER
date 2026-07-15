@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "spellPoolMode": "Both",
+  "progressionBand": "EarlyOnly",
+  "rebuildStartingSpellLoadout": true,
+  "injectSupportCatalystWhenNeeded": true,
+  "ensureSecondSupportCatalystWhenPossible": true
+}

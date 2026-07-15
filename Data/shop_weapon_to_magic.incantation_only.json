@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "spellPoolMode": "IncantationOnly",
+  "progressionBand": "EarlyMid",
+  "entries": [
+    { "oldEquipId": 1000000 },
+    { "oldEquipId": 2000000 },
+    { "oldEquipId": 41000000 },
+    { "oldEquipId": 5020000 },
+    { "oldEquipId": 7140000 },
+    { "oldEquipId": 14000000 },
+    { "oldEquipId": 11000000 },
+    { "oldEquipId": 16000000 }
+  ]
+}

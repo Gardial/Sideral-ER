@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "spellPoolMode": "Both",
+  "progressionBand": "EarlyMid",
+  "includeShopRows": true,
+  "includeItemLotMapRows": true,
+  "includeItemLotEnemyRows": true,
+  "excludeEniaRemembranceShop": true
+}

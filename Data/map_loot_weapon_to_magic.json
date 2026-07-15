@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "replaceAllEligibleWeapons": true,
+  "spellPoolMode": "Both",
+  "progressionBand": "EarlyMid",
+  "entries": [
+    {
+      "oldItemId": 1030000,
+      "oldItemCategory": 2
+    },
+    {
+      "oldItemId": 12190000,
+      "oldItemCategory": 2
+    },
+    {
+      "oldItemId": 3180000,
+      "oldItemCategory": 2
+    },
+    {
+      "oldItemId": 22000000,
+      "oldItemCategory": 2
+    },
+    {
+      "oldItemId": 14100000,
+      "oldItemCategory": 2
+    },
+    {
+      "oldItemId": 9000000,
+      "oldItemCategory": 2
+    }
+  ]
+}

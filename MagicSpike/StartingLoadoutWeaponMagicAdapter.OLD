@@ -1,0 +1,122 @@
+using System;
+using System.Linq;
+using SoulsFormats;
+
+namespace RandomMagicConversion;
+
+public sealed class StartingLoadoutWeaponMagicAdapter
+{
+    private static readonly string[] WeaponFields =
+    {
+        "equip_Wep_Right",
+        "equip_Subwep_Right",
+        "equip_Wep_Left",
+        "equip_Subwep_Left"
+    };
+
+    private static readonly string[] SpellFields =
+    {
+        "equip_Spell_01",
+        "equip_Spell_02",
+        "equip_Spell_03",
+        "equip_Spell_04",
+        "equip_Spell_05",
+        "equip_Spell_06",
+        "equip_Spell_07"
+    };
+
+    public WeaponMagicSpikeResult Apply(PARAM charaInitParam, WeaponToMagicMapping mapping)
+    {
+        if (charaInitParam == null)
+            throw new ArgumentNullException(nameof(charaInitParam));
+
+        if (mapping == null)
+            throw new ArgumentNullException(nameof(mapping));
+
+        var result = new WeaponMagicSpikeResult();
+        int modifiedRows = 0;
+
+        result.Logs.Add("=== StartingLoadoutWeaponMagicAdapter ===");
+        result.Logs.Add($"Mapping: {mapping}");
+        result.Logs.Add("Note: pour ce spike, SourceGoodsId est conservé pour la suite mais non utilisé ici.");
+        result.Logs.Add("Le test passe uniquement par CharaInitParam + equip_Spell_XX.");
+
+        foreach (PARAM.Row row in charaInitParam.Rows)
+        {
+            bool hasTargetWeapon = WeaponFields.Any(field =>
+                HasField(row, field) && GetInt(row, field) == mapping.TargetWeaponId);
+
+            if (!hasTargetWeapon)
+                continue;
+
+            modifiedRows++;
+            result.Logs.Add($"Row {row.ID}: target weapon détectée.");
+
+            foreach (string weaponField in WeaponFields)
+            {
+                if (!HasField(row, weaponField))
+                    continue;
+
+                if (GetInt(row, weaponField) == mapping.TargetWeaponId)
+                {
+                    row[weaponField].Value = -1;
+                    result.Logs.Add($"  - {weaponField} : {mapping.TargetWeaponId} -> -1");
+                }
+            }
+
+            string chosenSpellField = SpellFields
+                .FirstOrDefault(field => HasField(row, field) && IsEmptySpellSlot(row, field));
+
+            if (chosenSpellField == null)
+            {
+                chosenSpellField = SpellFields.FirstOrDefault(field => HasField(row, field));
+                if (chosenSpellField == null)
+                {
+                    result.Logs.Add("  - Aucun slot equip_Spell_XX disponible sur cette row.");
+                    continue;
+                }
+
+                int previous = GetInt(row, chosenSpellField);
+                result.Logs.Add($"  - Aucun slot de sort vide, overwrite de {chosenSpellField} : {previous} -> {mapping.SourceMagicId}");
+            }
+            else
+            {
+                result.Logs.Add($"  - Injection du sort dans {chosenSpellField} : {mapping.SourceMagicId}");
+            }
+
+            row[chosenSpellField].Value = mapping.SourceMagicId;
+        }
+
+        result.Success = modifiedRows > 0;
+        result.Summary = modifiedRows > 0
+            ? $"Spike appliqué sur {modifiedRows} row(s) de CharaInitParam."
+            : $"Aucune row de CharaInitParam ne contenait l'arme cible {mapping.TargetWeaponId}.";
+
+        return result;
+    }
+
+    private static bool HasField(PARAM.Row row, string field)
+    {
+        try
+        {
+            var cell = row[field];
+            return cell != null;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
+    private static int GetInt(PARAM.Row row, string field)
+    {
+        object value = row[field].Value;
+        return Convert.ToInt32(value);
+    }
+
+    private static bool IsEmptySpellSlot(PARAM.Row row, string field)
+    {
+        int value = GetInt(row, field);
+        return value <= 0;
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "replaceAllEligibleWeapons": true,
+  "spellPoolMode": "Both",
+  "progressionBand": "MidLate",
+  "entries": []
+}
